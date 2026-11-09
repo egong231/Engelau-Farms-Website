@@ -1,0 +1,74 @@
+.soybean-page-title {
+    background-image: url('../images/IMG_0095.JPG');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px;
+}
+
+.corn-page-title {
+    background-image: url('../images/2026-10-26-17-37-44-328.PNG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px;
+}
+
+.title-header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: roboto, sans-serif;
+}
+
+.back-button {
+    text-align: top left;
+    width: 50px;
+    height: auto;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+.soybean-image {
+    width: 25%;
+    height: auto;
+}
+
+.corn-image {
+    width: 25%;
+    height: auto;
+}
+
+.soybean-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+.corn-team {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+}
