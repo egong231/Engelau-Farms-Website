@@ -1,5 +1,5 @@
 .soybean-page-title {
-    background-image: url('../images/IMG_0095.JPG');
+    background-image: url('../images/harvest_soy.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,12 +7,16 @@
 }
 
 .corn-page-title {
-    background-image: url('../images/2026-10-26-17-37-44-328.PNG');
+    background-image: url('../images/harvest_corn1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     padding: 60px;
+}
+
+.content-text {
+    padding: 30px;
 }
 
 .title-header {
@@ -38,14 +42,18 @@
     font-family: roboto, sans-serif;
 }
 
-.soybean-image {
-    width: 25%;
+.image {
+    width: 20%;
     height: auto;
+    margin: 10px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
-.corn-image {
+.content-image {
     width: 25%;
     height: auto;
+    margin: 0px;
 }
 
 .soybean-team {
@@ -71,4 +79,33 @@
 .images {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+.logo {
+    justify-content: flex-start;
+    margin-right: auto;
+}
+
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    background-color: #111111;
 }
