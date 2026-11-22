@@ -1,0 +1,24 @@
+.jobs-page-title {
+    background-image: url('../images/jason1.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 60px;
+}
+
+.title-header {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-family: roboto, sans-serif;
+}
+
+.content-text {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    text-align: center;
+    font-family: roboto, sans-serif;
+}
