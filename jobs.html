@@ -8,6 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/navbar.css">
         <link rel="stylesheet" href="css/form.css">
+        <link rel="stylesheet" href="css/jobs.css">
     </head>
     <body>
         <ul>
@@ -17,32 +18,40 @@
             <li><a href="jobs.html">Jobs</a></li>
             <li><a href="contacts.html">Contact Us</a></li>
         </ul>
-        <div id="page-container">
-            <h1>Join our Team</h1>
-            <h2>Call us here: 123-456-7890</h2>
-            <h3>Interest form:</h3>
-            <p>We are always looking for new additions to our team. If you are interested in working with us, please fill out the form below.</p>
-            <form id="form">
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname" required><br>
+        <div class="jobs-page-title">
+            <h1 class="title-header">Join our Team</h1>
+        </div>
+        <div class="page-content">
+                <div class="content-text">
+                    <h2>Call us here: 123-456-7890</h2>
+                    <h3>Interest form</h3>
+                    <p>We are always looking for new additions to our team. If you are interested in working with us, please fill out the form below.</p>
+                </div>
+            <div class="wrapper">
+                <div class="form-container">
+                    <form id="form">
+                        <label for="fname">First name:</label>
+                        <input type="text" id="fname" name="fname" required><br>
 
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname" required><br>
+                        <label for="lname">Last name:</label>
+                        <input type="text" id="lname" name="lname" required><br>
 
-                <label for="email">Email address:</label>
-                <input type="text" id="email" name="email" required><br>
+                        <label for="email">Email address:</label>
+                        <input type="text" id="email" name="email" required><br>
 
-                <label for="phonenum">Phone number:</label>
-                <input type="text" id="phonenum" name="phonenum" required><br>
+                        <label for="phonenum">Phone number:</label>
+                        <input type="text" id="phonenum" name="phonenum" required><br>
 
-                <label for="exp">Experience:</label><br>
-                <textarea class="big-txtbox"  id="exp" name="exp" required></textarea><br>
-                
-                <label for="addtl">Additional comments:</label><br>
-                <textarea class="big-txtbox" id="addtl" name="addtl"></textarea><br>
-                
-                <button type="submit">Submit</button>
-            </form>
+                        <label for="exp">Experience:</label><br>
+                        <textarea class="big-txtbox"  id="exp" name="exp" required></textarea><br>
+                        
+                        <label for="addtl">Additional comments:</label><br>
+                        <textarea class="big-txtbox" id="addtl" name="addtl"></textarea><br>
+                        
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </div>
         </div>
         <script src="js/form.js"></script>
     </body>
